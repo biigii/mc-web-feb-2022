@@ -1,0 +1,6 @@
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+/* method 2 to link to an external font */
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Roboto&display=swap';
+@import './base.css';
+@import './grid.css';
+@import './typography.css';

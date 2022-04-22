@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+}
+
+.block p {
+    color: red;
+}
+
+.block h4 {
+    color: blue;
+    font-size: 40px;
+}
+
+.block .sub-block {
+    background-color: lightblue;
+}
+
+.block h4 {
+    color: purple;
+}
+
+.block h5 {
+    color: green;
+}
+
+.home h1 {
+    font-size: 60px;
+    color: pink;
+    background-color: lightblue
+}
+
+.about h1 {
+    font-size: 60px;
+    color: orange;
+    background-color: brown;
+}
+
+.contact h1 {
+    font-size: 120px;
+    color: green;
+    background-color: lightgreen;
+}
+
+.home .block {
+    background-color: lightgreen;
+}

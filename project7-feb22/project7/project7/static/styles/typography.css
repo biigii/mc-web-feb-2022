@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'indie-flower';
+    src: url('../fonts/indie-flower-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Permanent Marker Regular';
+    src: url('../fonts/permanent-marker-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merianda Bold';
+    src: url('../fonts/merienda-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Medianda Regural';
+    src: url('../fonts/merienda-regular.ttf');
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 50px 0;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'indie-flower', serif; */
+    font-family: 'Merianda Bold';
+    font-size: 60px;
+}
+
+.navigation a {
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Permanent Marker Regular', serif; */
+    font-family: 'Medianda Regural';
+    font-size: 34px;
+}

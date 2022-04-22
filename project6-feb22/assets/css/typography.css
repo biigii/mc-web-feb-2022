@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+/* nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  margin: 10px 15px;
+  display: inline-block;
+} */
+
+.navigation a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  margin: 10px 15px;
+  display: inline-block;
+}
+
+.navigation a:hover {
+  color: #f33;
+  font-weight: bolder;
+}
+
+h1::after, 
+h1::before {
+  content: "\266C";
+  color: #f99;
+  /* height: 30px;
+  width: 30px; */
+  /* background-color: rgb(240, 17, 47); */
+  display: inline-block;
+  /* border-radius: 15px; */
+}
+
+h1::after {
+  margin-left: 10px;
+}
+
+h1::before {
+  margin-right: 10px;
+}

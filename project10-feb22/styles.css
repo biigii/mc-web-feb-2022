@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #567;
+    height: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    /* margin: 0 10px; */
+}
+
+.my-list li {
+    /* list-style: none; */
+    /* list-style-type: none; */
+    /* list-style-type: decimal-leading-zero; */
+}
+
+.my-list {
+    list-style: none;
+}
+
+.nav li {
+    /* list-style: none; */
+    display: inline-block;
+    margin: 0 5px;
+}
+
+@media (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form select {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+.form input,
+.form textarea {
+    padding-left: 5px;
+}
+
+.form input,
+.form select {
+    height: 40px;
+}
+
+.form textarea {
+    height: 120px;
+    padding-top: 5px;
+}
+
+.form .button {
+    background-color: #ee2929;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition-property: background-color, color;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    /* transition: background-color 400ms; */
+}
+
+.form .button:hover {
+    background-color: #fff;
+    color: #ee2929;
+    border: 1px solid #ee2929;
+}

@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    /* color: purple; */
+    font-size: 60px;
+    /* text-align: center; */
+}
+
+h2 {
+    color: yellow;
+    background-color: orange;
+    /* font-size: 40px; */
+}
+
+.shared-class {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.first-paragraph {
+    color: pink;
+    background-color: green;
+}
+
+.other-text {
+    color: blue;
+    background-color: red;
+}
+
+.last-para {
+    color: green;
+    background-color: yellow;
+}
+
+/* #google-link {
+    color: red;
+    background-color: blue;
+}
+
+#facebook {
+    color: tomato;
+    background-color: green;
+} */
+
+.google-link {
+  color: red;
+  background-color: blue;
+  display: block;
+}
+
+.facebook {
+  color: tomato;
+  background-color: green;
+  display: block;
+}
+
+.navigation {
+    color: red;
+    display: block;
+}
+
+.text {
+    color: gold;
+    background-color: aqua;
+    display: inline;
+}
